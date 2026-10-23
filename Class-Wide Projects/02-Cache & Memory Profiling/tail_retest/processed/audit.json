@@ -1,0 +1,37 @@
+{
+  "status_counts": {
+    "ok": 180
+  },
+  "counter_status_counts": {
+    "cycles": {
+      "not_collected": 180
+    },
+    "instructions": {
+      "not_collected": 180
+    },
+    "cache_references": {
+      "not_collected": 180
+    },
+    "cache_misses": {
+      "not_collected": 180
+    },
+    "l1d_read_misses": {
+      "not_collected": 180
+    },
+    "dtlb_read_misses": {
+      "not_collected": 180
+    }
+  },
+  "page_status_counts": {
+    "nohuge_advice": 180
+  },
+  "trials_with_faults": 0,
+  "single_trial_groups": 0,
+  "smoke_data_present": false,
+  "notes": [
+    "Error bars are sample standard deviation, not confidence intervals.",
+    "Missing counters stay missing; event running fraction below 0.9 is excluded from normalization.",
+    "Review failure/skip counts and observed page backing before interpreting results.",
+    "No PMU counter plots are produced when valid PMU events are unavailable."
+  ]
+}

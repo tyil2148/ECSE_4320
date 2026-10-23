@@ -1,0 +1,2464 @@
+{
+  "settings": {
+    "capacities_for_planning": {
+      "1": 32768,
+      "2": 524288,
+      "3": 16777216
+    },
+    "dram_line_footprint_bytes": 67108864,
+    "cache_source": "sysfs_with_documented_fallbacks",
+    "smoke_not_valid_for_report": false
+  },
+  "jobs": [
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 4096,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 8192,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 16384,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 32768,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 65536,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 131072,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 262144,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 524288,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 1048576,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 2097152,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 4194304,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 8388608,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 16777216,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 33554432,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 67108864,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 134217728,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "working_set",
+      "mode": "chase",
+      "bytes": 268435456,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "baseline",
+      "mode": "chase",
+      "bytes": 16384,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base",
+      "level_candidate": "L1_candidate"
+    },
+    {
+      "experiment": "baseline",
+      "mode": "chase",
+      "bytes": 262144,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base",
+      "level_candidate": "L2_candidate"
+    },
+    {
+      "experiment": "baseline",
+      "mode": "chase",
+      "bytes": 8388608,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base",
+      "level_candidate": "LLC_candidate"
+    },
+    {
+      "experiment": "baseline",
+      "mode": "chase",
+      "bytes": 67108864,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base",
+      "level_candidate": "DRAM_candidate"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 8,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 8,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 8,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 8,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 64,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 64,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 64,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 64,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 268435456,
+      "stride": 256,
+      "granularity": 8,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 268435456,
+      "stride": 256,
+      "granularity": 8,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 268435456,
+      "stride": 256,
+      "granularity": 8,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 268435456,
+      "stride": 256,
+      "granularity": 8,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 268435456,
+      "stride": 256,
+      "granularity": 64,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 268435456,
+      "stride": 256,
+      "granularity": 64,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 268435456,
+      "stride": 256,
+      "granularity": 64,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 268435456,
+      "stride": 256,
+      "granularity": 64,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "granularity": 8,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "granularity": 8,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "granularity": 8,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "granularity": 8,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "granularity": 64,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "granularity": 64,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "granularity": 64,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "granularity": 64,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 8,
+      "read_pct": 100,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 8,
+      "read_pct": 0,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 8,
+      "read_pct": 70,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 8,
+      "read_pct": 50,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 64,
+      "read_pct": 100,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 64,
+      "read_pct": 0,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 64,
+      "read_pct": 70,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 64,
+      "read_pct": 50,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 268435456,
+      "stride": 256,
+      "granularity": 8,
+      "read_pct": 100,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 268435456,
+      "stride": 256,
+      "granularity": 8,
+      "read_pct": 0,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 268435456,
+      "stride": 256,
+      "granularity": 8,
+      "read_pct": 70,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 268435456,
+      "stride": 256,
+      "granularity": 8,
+      "read_pct": 50,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 268435456,
+      "stride": 256,
+      "granularity": 64,
+      "read_pct": 100,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 268435456,
+      "stride": 256,
+      "granularity": 64,
+      "read_pct": 0,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 268435456,
+      "stride": 256,
+      "granularity": 64,
+      "read_pct": 70,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 268435456,
+      "stride": 256,
+      "granularity": 64,
+      "read_pct": 50,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "granularity": 8,
+      "read_pct": 100,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "granularity": 8,
+      "read_pct": 0,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "granularity": 8,
+      "read_pct": 70,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "granularity": 8,
+      "read_pct": 50,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "granularity": 64,
+      "read_pct": 100,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "granularity": 64,
+      "read_pct": 0,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "granularity": 64,
+      "read_pct": 70,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_mix",
+      "mode": "stream",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "granularity": 64,
+      "read_pct": 50,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_latency",
+      "mode": "chase",
+      "bytes": 67108864,
+      "stride": 64,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_latency",
+      "mode": "chase",
+      "bytes": 268435456,
+      "stride": 256,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_latency",
+      "mode": "chase",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_latency",
+      "mode": "chase",
+      "bytes": 67108864,
+      "stride": 64,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_latency",
+      "mode": "chase",
+      "bytes": 268435456,
+      "stride": 256,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "pattern_latency",
+      "mode": "chase",
+      "bytes": 1073741824,
+      "stride": 1024,
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 1024,
+      "nodes": 16,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 1024,
+      "nodes": 16,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 1024,
+      "nodes": 16,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 65536,
+      "nodes": 16,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 65536,
+      "nodes": 16,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 65536,
+      "nodes": 16,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 2048,
+      "nodes": 32,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 2048,
+      "nodes": 32,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 2048,
+      "nodes": 32,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 131072,
+      "nodes": 32,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 131072,
+      "nodes": 32,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 131072,
+      "nodes": 32,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 4096,
+      "nodes": 64,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 4096,
+      "nodes": 64,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 4096,
+      "nodes": 64,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 262144,
+      "nodes": 64,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 262144,
+      "nodes": 64,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 262144,
+      "nodes": 64,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 8192,
+      "nodes": 128,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 8192,
+      "nodes": 128,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 8192,
+      "nodes": 128,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 524288,
+      "nodes": 128,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 524288,
+      "nodes": 128,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 524288,
+      "nodes": 128,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 16384,
+      "nodes": 256,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 16384,
+      "nodes": 256,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 16384,
+      "nodes": 256,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 1048576,
+      "nodes": 256,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 1048576,
+      "nodes": 256,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 1048576,
+      "nodes": 256,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 32768,
+      "nodes": 512,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 32768,
+      "nodes": 512,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 32768,
+      "nodes": 512,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 2097152,
+      "nodes": 512,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 2097152,
+      "nodes": 512,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 2097152,
+      "nodes": 512,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 65536,
+      "nodes": 1024,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 65536,
+      "nodes": 1024,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 65536,
+      "nodes": 1024,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 4194304,
+      "nodes": 1024,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 4194304,
+      "nodes": 1024,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 4194304,
+      "nodes": 1024,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 131072,
+      "nodes": 2048,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 131072,
+      "nodes": 2048,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 131072,
+      "nodes": 2048,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 8388608,
+      "nodes": 2048,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 8388608,
+      "nodes": 2048,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 8388608,
+      "nodes": 2048,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 262144,
+      "nodes": 4096,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 262144,
+      "nodes": 4096,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 262144,
+      "nodes": 4096,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 16777216,
+      "nodes": 4096,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 16777216,
+      "nodes": 4096,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 16777216,
+      "nodes": 4096,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 524288,
+      "nodes": 8192,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 524288,
+      "nodes": 8192,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 524288,
+      "nodes": 8192,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 33554432,
+      "nodes": 8192,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 33554432,
+      "nodes": 8192,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 33554432,
+      "nodes": 8192,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 1048576,
+      "nodes": 16384,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 1048576,
+      "nodes": 16384,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 1048576,
+      "nodes": 16384,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 67108864,
+      "nodes": 16384,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 67108864,
+      "nodes": 16384,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 67108864,
+      "nodes": 16384,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 2097152,
+      "nodes": 32768,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 2097152,
+      "nodes": 32768,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 2097152,
+      "nodes": 32768,
+      "stride": 64,
+      "locality": "compact",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 134217728,
+      "nodes": 32768,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 134217728,
+      "nodes": 32768,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "thp"
+    },
+    {
+      "experiment": "tlb",
+      "mode": "chase",
+      "bytes": 134217728,
+      "nodes": 32768,
+      "stride": 64,
+      "locality": "spread",
+      "pattern": "random",
+      "pages": "hugetlb"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 4096,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 4096,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 4096,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 4096,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 8192,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 8192,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 8192,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 8192,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 16384,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 16384,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 16384,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 16384,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 32768,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 32768,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 32768,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 32768,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 65536,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 65536,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 65536,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 65536,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 131072,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 131072,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 131072,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 131072,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 262144,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 262144,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 262144,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 262144,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 524288,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 524288,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 524288,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 524288,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 1048576,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 1048576,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 1048576,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 1048576,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 2097152,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 2097152,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 2097152,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 2097152,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 4194304,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 4194304,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 4194304,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 4194304,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 8388608,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 8388608,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 8388608,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 8388608,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 16777216,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 16777216,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 16777216,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 16777216,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 33554432,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 33554432,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 33554432,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 33554432,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 67108864,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 67108864,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 67108864,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 67108864,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 134217728,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 134217728,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 134217728,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 134217728,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 268435456,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 268435456,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 268435456,
+      "element_stride": 1,
+      "kernel": "multiply",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "cache_kernel",
+      "mode": "kernel",
+      "bytes": 268435456,
+      "element_stride": 1,
+      "kernel": "axpy",
+      "pattern": "random",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "",
+      "load_threads_requested": 0,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "",
+      "load_threads_requested": 0,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "",
+      "load_threads_requested": 0,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "",
+      "load_threads_requested": 0,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2",
+      "load_threads_requested": 1,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2",
+      "load_threads_requested": 1,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2",
+      "load_threads_requested": 1,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2",
+      "load_threads_requested": 1,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4",
+      "load_threads_requested": 2,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4",
+      "load_threads_requested": 2,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4",
+      "load_threads_requested": 2,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4",
+      "load_threads_requested": 2,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6",
+      "load_threads_requested": 3,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6",
+      "load_threads_requested": 3,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6",
+      "load_threads_requested": 3,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6",
+      "load_threads_requested": 3,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8",
+      "load_threads_requested": 4,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8",
+      "load_threads_requested": 4,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8",
+      "load_threads_requested": 4,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8",
+      "load_threads_requested": 4,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10",
+      "load_threads_requested": 5,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10",
+      "load_threads_requested": 5,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10",
+      "load_threads_requested": 5,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10",
+      "load_threads_requested": 5,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3",
+      "load_threads_requested": 7,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3",
+      "load_threads_requested": 7,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3",
+      "load_threads_requested": 7,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3",
+      "load_threads_requested": 7,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3,5,7",
+      "load_threads_requested": 9,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3,5,7",
+      "load_threads_requested": 9,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3,5,7",
+      "load_threads_requested": 9,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3,5,7",
+      "load_threads_requested": 9,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3,5,7,9,11",
+      "load_threads_requested": 11,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3,5,7,9,11",
+      "load_threads_requested": 11,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3,5,7,9,11",
+      "load_threads_requested": 11,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3,5,7,9,11",
+      "load_threads_requested": 11,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "pitfall",
+      "mode": "stream",
+      "bytes": 16384,
+      "stride": 64,
+      "granularity": 64,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base",
+      "pitfall_case": "misleading_cache_reuse"
+    },
+    {
+      "experiment": "pitfall",
+      "mode": "stream",
+      "bytes": 67108864,
+      "stride": 64,
+      "granularity": 64,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base",
+      "pitfall_case": "correct_dram_footprint"
+    }
+  ]
+}

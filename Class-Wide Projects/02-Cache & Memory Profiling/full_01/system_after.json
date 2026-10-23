@@ -1,0 +1,313 @@
+{
+  "utc": "2026-10-23T02:25:48Z",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "wsl_detected": true,
+  "arguments": {
+    "profile": "full",
+    "out": "results/full_01",
+    "trials": 5,
+    "ms": 250,
+    "seed": 7530,
+    "cpu": null,
+    "cpus": null,
+    "dram_mib": null,
+    "experiments": null,
+    "plan_only": false
+  },
+  "allowed_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "cpu_order": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    1,
+    3,
+    5,
+    7,
+    9,
+    11
+  ],
+  "cache_info": [
+    {
+      "level": "1",
+      "type": "Data",
+      "size": "32K",
+      "coherency_line_size": "64",
+      "shared_cpu_list": "0-1",
+      "ways_of_associativity": "8",
+      "number_of_sets": "64",
+      "bytes": 32768
+    },
+    {
+      "level": "1",
+      "type": "Instruction",
+      "size": "32K",
+      "coherency_line_size": "64",
+      "shared_cpu_list": "0-1",
+      "ways_of_associativity": "8",
+      "number_of_sets": "64",
+      "bytes": 32768
+    },
+    {
+      "level": "2",
+      "type": "Unified",
+      "size": "512K",
+      "coherency_line_size": "64",
+      "shared_cpu_list": "0-1",
+      "ways_of_associativity": "8",
+      "number_of_sets": "1024",
+      "bytes": 524288
+    },
+    {
+      "level": "3",
+      "type": "Unified",
+      "size": "16384K",
+      "coherency_line_size": "64",
+      "shared_cpu_list": "0-11",
+      "ways_of_associativity": "16",
+      "number_of_sets": "16384",
+      "bytes": 16777216
+    }
+  ],
+  "files": {
+    "/etc/os-release": "PRETTY_NAME=\"Ubuntu 22.04.3 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"22.04\"\nVERSION=\"22.04.3 LTS (Jammy Jellyfish)\"\nVERSION_CODENAME=jammy\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=jammy",
+    "/proc/cpuinfo": "processor\t: 0\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 PRO 7530U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 1996.184\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 0\ncpu cores\t: 6\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 3992.36\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 PRO 7530U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 1996.184\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 0\ncpu cores\t: 6\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 3992.36\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 2\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 PRO 7530U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 1996.184\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 1\ncpu cores\t: 6\napicid\t\t: 2\ninitial apicid\t: 2\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 3992.36\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 3\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 PRO 7530U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 1996.184\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 1\ncpu cores\t: 6\napicid\t\t: 3\ninitial apicid\t: 3\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 3992.36\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 4\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 PRO 7530U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 1996.184\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 2\ncpu cores\t: 6\napicid\t\t: 4\ninitial apicid\t: 4\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 3992.36\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 5\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 PRO 7530U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 1996.184\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 2\ncpu cores\t: 6\napicid\t\t: 5\ninitial apicid\t: 5\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 3992.36\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 6\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 PRO 7530U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 1996.184\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 3\ncpu cores\t: 6\napicid\t\t: 6\ninitial apicid\t: 6\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 3992.36\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 7\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 PRO 7530U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 1996.184\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 3\ncpu cores\t: 6\napicid\t\t: 7\ninitial apicid\t: 7\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 3992.36\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 8\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 PRO 7530U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 1996.184\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 4\ncpu cores\t: 6\napicid\t\t: 8\ninitial apicid\t: 8\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 3992.36\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 9\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 PRO 7530U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 1996.184\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 4\ncpu cores\t: 6\napicid\t\t: 9\ninitial apicid\t: 9\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 3992.36\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 10\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 PRO 7530U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 1996.184\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 5\ncpu cores\t: 6\napicid\t\t: 10\ninitial apicid\t: 10\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 3992.36\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 11\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 PRO 7530U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 1996.184\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 5\ncpu cores\t: 6\napicid\t\t: 11\ninitial apicid\t: 11\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 3992.36\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:",
+    "/proc/meminfo": "MemTotal:        7508784 kB\nMemFree:         5156928 kB\nMemAvailable:    5715456 kB\nBuffers:           24104 kB\nCached:           664848 kB\nSwapCached:            0 kB\nActive:           258248 kB\nInactive:        1480204 kB\nActive(anon):       3416 kB\nInactive(anon):  1050708 kB\nActive(file):     254832 kB\nInactive(file):   429496 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:       2097152 kB\nSwapFree:        2097152 kB\nDirty:                 0 kB\nWriteback:             0 kB\nAnonPages:       1049520 kB\nMapped:           301212 kB\nShmem:              4616 kB\nKReclaimable:      24164 kB\nSlab:              92500 kB\nSReclaimable:      24164 kB\nSUnreclaim:        68336 kB\nKernelStack:        6880 kB\nPageTables:        25844 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:     5851544 kB\nCommitted_AS:    2524644 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       36788 kB\nVmallocChunk:          0 kB\nPercpu:             6784 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:     26624 kB\nFilePmdMapped:         0 kB\nBalloon:               0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      142336 kB\nDirectMap2M:     6563840 kB\nDirectMap1G:     9437184 kB",
+    "/proc/sys/kernel/perf_event_paranoid": "2",
+    "/sys/devices/system/cpu/smt/active": "1",
+    "/sys/kernel/mm/transparent_hugepage/enabled": "always [madvise] never",
+    "/sys/kernel/mm/transparent_hugepage/defrag": "always defer defer+madvise [madvise] never",
+    "/proc/sys/vm/nr_hugepages": "0",
+    "/proc/self/status": "Name:\tpython\nUmask:\t0022\nState:\tR (running)\nTgid:\t122667\nNgid:\t0\nPid:\t122667\nPPid:\t87762\nTracerPid:\t0\nUid:\t1000\t1000\t1000\t1000\nGid:\t1000\t1000\t1000\t1000\nFDSize:\t256\nGroups:\t4 20 24 25 27 29 30 44 46 116 1000 \nNStgid:\t122667\nNSpid:\t122667\nNSpgid:\t122667\nNSsid:\t87762\nKthread:\t0\nVmPeak:\t   32680 kB\nVmSize:\t   32680 kB\nVmLck:\t       0 kB\nVmPin:\t       0 kB\nVmHWM:\t   26280 kB\nVmRSS:\t   26280 kB\nRssAnon:\t   16792 kB\nRssFile:\t    9488 kB\nRssShmem:\t       0 kB\nVmData:\t   18216 kB\nVmStk:\t     136 kB\nVmExe:\t    2776 kB\nVmLib:\t    5152 kB\nVmPTE:\t     108 kB\nVmSwap:\t       0 kB\nHugetlbPages:\t       0 kB\nCoreDumping:\t0\nTHP_enabled:\t1\nuntag_mask:\t0xffffffffffffffff\nThreads:\t1\nSigQ:\t0/29293\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000000000000\nSigIgn:\t0000000001001000\nSigCgt:\t0000000000000002\nCapInh:\t0000000000000000\nCapPrm:\t0000000000000000\nCapEff:\t0000000000000000\nCapBnd:\t000001ffffffffff\nCapAmb:\t0000000000000000\nNoNewPrivs:\t0\nSeccomp:\t0\nSeccomp_filters:\t0\nSpeculation_Store_Bypass:\tthread vulnerable\nSpeculationIndirectBranch:\tconditional enabled\nCpus_allowed:\tfff\nCpus_allowed_list:\t0-11\nMems_allowed:\t00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t11554\nnonvoluntary_ctxt_switches:\t15",
+    "cpu0_topology": {
+      "core_id": "0",
+      "physical_package_id": "0",
+      "thread_siblings_list": "0-1"
+    },
+    "cpu0_frequency": {
+      "scaling_governor": "unavailable",
+      "scaling_driver": "unavailable",
+      "scaling_min_freq": "unavailable",
+      "scaling_max_freq": "unavailable",
+      "scaling_cur_freq": "unavailable"
+    },
+    "cpu2_topology": {
+      "core_id": "1",
+      "physical_package_id": "0",
+      "thread_siblings_list": "2-3"
+    },
+    "cpu2_frequency": {
+      "scaling_governor": "unavailable",
+      "scaling_driver": "unavailable",
+      "scaling_min_freq": "unavailable",
+      "scaling_max_freq": "unavailable",
+      "scaling_cur_freq": "unavailable"
+    },
+    "cpu4_topology": {
+      "core_id": "2",
+      "physical_package_id": "0",
+      "thread_siblings_list": "4-5"
+    },
+    "cpu4_frequency": {
+      "scaling_governor": "unavailable",
+      "scaling_driver": "unavailable",
+      "scaling_min_freq": "unavailable",
+      "scaling_max_freq": "unavailable",
+      "scaling_cur_freq": "unavailable"
+    },
+    "cpu6_topology": {
+      "core_id": "3",
+      "physical_package_id": "0",
+      "thread_siblings_list": "6-7"
+    },
+    "cpu6_frequency": {
+      "scaling_governor": "unavailable",
+      "scaling_driver": "unavailable",
+      "scaling_min_freq": "unavailable",
+      "scaling_max_freq": "unavailable",
+      "scaling_cur_freq": "unavailable"
+    },
+    "cpu8_topology": {
+      "core_id": "4",
+      "physical_package_id": "0",
+      "thread_siblings_list": "8-9"
+    },
+    "cpu8_frequency": {
+      "scaling_governor": "unavailable",
+      "scaling_driver": "unavailable",
+      "scaling_min_freq": "unavailable",
+      "scaling_max_freq": "unavailable",
+      "scaling_cur_freq": "unavailable"
+    },
+    "cpu10_topology": {
+      "core_id": "5",
+      "physical_package_id": "0",
+      "thread_siblings_list": "10-11"
+    },
+    "cpu10_frequency": {
+      "scaling_governor": "unavailable",
+      "scaling_driver": "unavailable",
+      "scaling_min_freq": "unavailable",
+      "scaling_max_freq": "unavailable",
+      "scaling_cur_freq": "unavailable"
+    },
+    "cpu1_topology": {
+      "core_id": "0",
+      "physical_package_id": "0",
+      "thread_siblings_list": "0-1"
+    },
+    "cpu1_frequency": {
+      "scaling_governor": "unavailable",
+      "scaling_driver": "unavailable",
+      "scaling_min_freq": "unavailable",
+      "scaling_max_freq": "unavailable",
+      "scaling_cur_freq": "unavailable"
+    },
+    "cpu3_topology": {
+      "core_id": "1",
+      "physical_package_id": "0",
+      "thread_siblings_list": "2-3"
+    },
+    "cpu3_frequency": {
+      "scaling_governor": "unavailable",
+      "scaling_driver": "unavailable",
+      "scaling_min_freq": "unavailable",
+      "scaling_max_freq": "unavailable",
+      "scaling_cur_freq": "unavailable"
+    },
+    "cpu5_topology": {
+      "core_id": "2",
+      "physical_package_id": "0",
+      "thread_siblings_list": "4-5"
+    },
+    "cpu5_frequency": {
+      "scaling_governor": "unavailable",
+      "scaling_driver": "unavailable",
+      "scaling_min_freq": "unavailable",
+      "scaling_max_freq": "unavailable",
+      "scaling_cur_freq": "unavailable"
+    },
+    "cpu7_topology": {
+      "core_id": "3",
+      "physical_package_id": "0",
+      "thread_siblings_list": "6-7"
+    },
+    "cpu7_frequency": {
+      "scaling_governor": "unavailable",
+      "scaling_driver": "unavailable",
+      "scaling_min_freq": "unavailable",
+      "scaling_max_freq": "unavailable",
+      "scaling_cur_freq": "unavailable"
+    },
+    "cpu9_topology": {
+      "core_id": "4",
+      "physical_package_id": "0",
+      "thread_siblings_list": "8-9"
+    },
+    "cpu9_frequency": {
+      "scaling_governor": "unavailable",
+      "scaling_driver": "unavailable",
+      "scaling_min_freq": "unavailable",
+      "scaling_max_freq": "unavailable",
+      "scaling_cur_freq": "unavailable"
+    },
+    "cpu11_topology": {
+      "core_id": "5",
+      "physical_package_id": "0",
+      "thread_siblings_list": "10-11"
+    },
+    "cpu11_frequency": {
+      "scaling_governor": "unavailable",
+      "scaling_driver": "unavailable",
+      "scaling_min_freq": "unavailable",
+      "scaling_max_freq": "unavailable",
+      "scaling_cur_freq": "unavailable"
+    }
+  },
+  "tools": [
+    {
+      "argv": [
+        "g++",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0\nCopyright (C) 2021 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "make",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "GNU Make 4.3\nBuilt for x86_64-pc-linux-gnu\nCopyright (C) 1988-2020 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "uname",
+        "-a"
+      ],
+      "returncode": 0,
+      "stdout": "Linux tilbe-laptop 6.18.54.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct  6 19:13:07 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "lscpu"
+      ],
+      "returncode": 0,
+      "stdout": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           48 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  12\nOn-line CPU(s) list:                     0-11\nVendor ID:                               AuthenticAMD\nModel name:                              AMD Ryzen 5 PRO 7530U with Radeon Graphics\nCPU family:                              25\nModel:                                   80\nThread(s) per core:                      2\nCore(s) per socket:                      6\nSocket(s):                               1\nStepping:                                0\nBogoMIPS:                                3992.36\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nHypervisor vendor:                       Microsoft\nVirtualization type:                     full\nL1d cache:                               192 KiB (6 instances)\nL1i cache:                               192 KiB (6 instances)\nL2 cache:                                3 MiB (6 instances)\nL3 cache:                                16 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-11\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Vulnerable: Safe RET, no microcode\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Vulnerable: No microcode\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "numactl",
+        "--hardware"
+      ],
+      "error": "[Errno 2] No such file or directory: 'numactl'"
+    },
+    {
+      "argv": [
+        "perf",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "perf version 6.18.54.1.g26d1ceb55087\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "perf",
+        "list"
+      ],
+      "returncode": 0,
+      "stdout": "  branch-instructions OR branches                    [Hardware event]\n  branch-misses                                      [Hardware event]\n  cache-misses                                       [Hardware event]\n  cache-references                                   [Hardware event]\n  cpu-cycles OR cycles                               [Hardware event]\n  instructions                                       [Hardware event]\n  stalled-cycles-frontend OR idle-cycles-frontend    [Hardware event]\n\ncache:\n  L1-dcache-loads OR cpu/L1-dcache-loads/\n  L1-dcache-load-misses OR cpu/L1-dcache-load-misses/\n  L1-dcache-prefetches OR cpu/L1-dcache-prefetches/\n  L1-icache-loads OR cpu/L1-icache-loads/\n  L1-icache-load-misses OR cpu/L1-icache-load-misses/\n  dTLB-loads OR cpu/dTLB-loads/\n  dTLB-load-misses OR cpu/dTLB-load-misses/\n  iTLB-loads OR cpu/iTLB-loads/\n  iTLB-load-misses OR cpu/iTLB-load-misses/\n  branch-loads OR cpu/branch-loads/\n  branch-load-misses OR cpu/branch-load-misses/\n  branch-instructions OR cpu/branch-instructions/    [Kernel PMU event]\n  branch-misses OR cpu/branch-misses/                [Kernel PMU event]\n  cache-misses OR cpu/cache-misses/                  [Kernel PMU event]\n  cache-references OR cpu/cache-references/          [Kernel PMU event]\n  cpu-cycles OR cpu/cpu-cycles/                      [Kernel PMU event]\n  instructions OR cpu/instructions/                  [Kernel PMU event]\n  stalled-cycles-frontend OR cpu/stalled-cycles-frontend/[Kernel PMU event]\n  msr/tsc/                                           [Kernel PMU event]\n\nhwmon:\n  in0\n       [Voltage in unit bat1 named in0. Unit: hwmon_bat1]\n  power1\n       [Power use in unit bat1 named power1. Unit: hwmon_bat1]\n\nsoftware:\n  alignment-faults\n       [Number of kernel handled memory alignment faults. Unit: software]\n  bpf-output\n       [An event used by BPF programs to write to the perf ring buffer. Unit:\n        software]\n  cgroup-switches\n       [Number of context switches to a task in a different cgroup. Unit:\n        software]\n  context-switches\n       [Number of context switches [This event is an alias of cs]. Unit:\n        software]\n  cpu-clock\n       [Per-CPU high-resolution timer based event. Unit: software]\n  cpu-migrations\n       [Number of times a process has migrated to a new CPU [This event is an\n        alias of migrations]. Unit: software]\n  cs\n       [Number of context switches [This event is an alias of\n        context-switches]. Unit: software]\n  dummy\n       [A placeholder event that doesn't count anything. Unit: software]\n  emulation-faults\n       [Number of kernel handled unimplemented instruction faults handled\n        through emulation. Unit: software]\n  faults\n       [Number of page faults [This event is an alias of page-faults]. Unit:\n        software]\n  major-faults\n       [Number of major page faults. Major faults require I/O to handle. Unit:\n        software]\n  migrations\n       [Number of times a process has migrated to a new CPU [This event is an\n        alias of cpu-migrations]. Unit: software]\n  minor-faults\n       [Number of minor page faults. Minor faults don't require I/O to handle.\n        Unit: software]\n  page-faults\n       [Number of page faults [This event is an alias of faults]. Unit:\n        software]\n  task-clock\n       [Per-task high-resolution timer based event. Unit: software]\n\ntool:\n  duration_time\n       [Wall clock interval time in nanoseconds. Unit: tool]\n  has_pmem\n       [1 if persistent memory installed otherwise 0. Unit: tool]\n  num_cores\n       [Number of cores. A core consists of 1 or more thread,with each thread\n        being associated with a logical Linux CPU. Unit: tool]\n  num_cpus\n       [Number of logical Linux CPUs. There may be multiple such CPUs on a\n        core. Unit: tool]\n  num_cpus_online\n       [Number of online logical Linux CPUs. There may be multiple such CPUs\n        on a core. Unit: tool]\n  num_dies\n       [Number of dies. Each die has 1 or more cores. Unit: tool]\n  num_packages\n       [Number of packages. Each package has 1 or more die. Unit: tool]\n  smt_on\n       [1 if simultaneous multithreading (aka hyperthreading) is enable\n        otherwise 0. Unit: tool]\n  system_time\n       [System/kernel time in nanoseconds. Unit: tool]\n  system_tsc_freq\n       [The amount a Time Stamp Counter (TSC) increases per second. Unit: tool]\n  user_time\n       [User (non-kernel) time in nanoseconds. Unit: tool]\n  rNNN                                               [Raw event descriptor]\n  cpu/event=0..0xfff,edge,inv,.../modifier           [Raw event descriptor]\n       [(see 'man perf-list' or 'man perf-record' on how to encode it)]\n  breakpoint//modifier                               [Raw event descriptor]\n  hwmon//modifier                                    [Raw event descriptor]\n  hwmon_bat1//modifier                               [Raw event descriptor]\n  kprobe/retprobe/modifier                           [Raw event descriptor]\n  msr/event=0..0xffffffffffffffff/modifier           [Raw event descriptor]\n  software//modifier                                 [Raw event descriptor]\n  tool//modifier                                     [Raw event descriptor]\n  tracepoint//modifier                               [Raw event descriptor]\n  uprobe/ref_ctr_offset=0..0xffffffff,retprobe/modifier[Raw event descriptor]\n  mem:<addr>[/len][:access]                          [Hardware breakpoint]\n",
+      "stderr": ""
+    }
+  ],
+  "source_sha256": {
+    "src/membench.cpp": "d46843b2b80a9adc320af34fe2d2ae3f4019ff6d47181922b9d71086f6f4c6d6",
+    "scripts/analyze.py": "7950a332299f0ce61f98298ae9c6724d280b1c4cb61012b52fb84c7def846ef8",
+    "scripts/build_report.py": "411e9ae1331a6f7959cdad0ff53c2e5bcb65c92aeeb8eae33db520a95e18b61f",
+    "scripts/host_configuration.ps1": "6224c91ac40c56caceb0670cd0ce154e4eab99d4c189a2fae0ce9bd524967a94",
+    "scripts/run.py": "04b83be160cdc02c32fcfc38da76babd19d484ef3b4f72347f1117edee2fa801",
+    "scripts/setup_wsl.sh": "69ab09a08a7dfef914752e277c2c1694e39770cc1f87ccef0bdd955fcaf0b2d0"
+  }
+}

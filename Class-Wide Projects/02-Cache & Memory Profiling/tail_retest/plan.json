@@ -1,0 +1,410 @@
+{
+  "settings": {
+    "capacities_for_planning": {
+      "1": 32768,
+      "2": 524288,
+      "3": 16777216
+    },
+    "dram_line_footprint_bytes": 67108864,
+    "cache_source": "sysfs_with_documented_fallbacks",
+    "smoke_not_valid_for_report": false
+  },
+  "jobs": [
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "",
+      "load_threads_requested": 0,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "",
+      "load_threads_requested": 0,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "",
+      "load_threads_requested": 0,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "",
+      "load_threads_requested": 0,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2",
+      "load_threads_requested": 1,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2",
+      "load_threads_requested": 1,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2",
+      "load_threads_requested": 1,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2",
+      "load_threads_requested": 1,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4",
+      "load_threads_requested": 2,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4",
+      "load_threads_requested": 2,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4",
+      "load_threads_requested": 2,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4",
+      "load_threads_requested": 2,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6",
+      "load_threads_requested": 3,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6",
+      "load_threads_requested": 3,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6",
+      "load_threads_requested": 3,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6",
+      "load_threads_requested": 3,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8",
+      "load_threads_requested": 4,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8",
+      "load_threads_requested": 4,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8",
+      "load_threads_requested": 4,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8",
+      "load_threads_requested": 4,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10",
+      "load_threads_requested": 5,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10",
+      "load_threads_requested": 5,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10",
+      "load_threads_requested": 5,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10",
+      "load_threads_requested": 5,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3",
+      "load_threads_requested": 7,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3",
+      "load_threads_requested": 7,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3",
+      "load_threads_requested": 7,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3",
+      "load_threads_requested": 7,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3,5,7",
+      "load_threads_requested": 9,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3,5,7",
+      "load_threads_requested": 9,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3,5,7",
+      "load_threads_requested": 9,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3,5,7",
+      "load_threads_requested": 9,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3,5,7,9,11",
+      "load_threads_requested": 11,
+      "read_pct": 100,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3,5,7,9,11",
+      "load_threads_requested": 11,
+      "read_pct": 0,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3,5,7,9,11",
+      "load_threads_requested": 11,
+      "read_pct": 70,
+      "pattern": "sequential",
+      "pages": "base"
+    },
+    {
+      "experiment": "loaded",
+      "mode": "loaded",
+      "bytes": 67108864,
+      "probe_bytes": 67108864,
+      "load_cpus": "2,4,6,8,10,1,3,5,7,9,11",
+      "load_threads_requested": 11,
+      "read_pct": 50,
+      "pattern": "sequential",
+      "pages": "base"
+    }
+  ]
+}

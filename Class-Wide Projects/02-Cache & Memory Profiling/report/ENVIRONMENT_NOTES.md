@@ -1,0 +1,20 @@
+# Environment notes to complete before collecting final data
+
+- Student and course section: [FILL IN]
+- Run name, date and timezone: [FILL IN]
+- Host CPU: AMD Ryzen 5 PRO 7530U with Radeon Graphics; advertised base clock 2.00 GHz (user-supplied, not measured operating frequency).
+- Windows edition/build and WSL version: [COPY FROM HOST SNAPSHOT]
+- RAM capacity, channel population and speed: [FILL IN; do not infer]
+- WSL distribution/kernel and VM memory/processor limit: [FILL IN]
+- AC power, Windows power mode and active power plan: [FILL IN]
+- Linux governor/frequency policy if exposed: [FILL IN OR UNAVAILABLE]
+- Prefetcher configuration and SMT: [FILL IN; default if unchanged]
+- Probe and load CPU order; physical-core versus SMT transition: [FILL IN]
+- NUMA nodes and placement: [FILL IN; first-touch used; host placement not guaranteed]
+- Isolation and background activity: [FILL IN]
+- Thermal conditions and cooling; optional sensor readings: [FILL IN]
+- Counter permission/support and event semantics checked: [FILL IN]
+- Base-page size and observed THP/HugeTLB backing: [FILL IN]
+- Any changes from default build flags or run plan: [FILL IN]
+- Swapping/page faults/host memory pressure observed: [FILL IN]
+- Excluded or rerun trials and reasons: [FILL IN; retain originals]
