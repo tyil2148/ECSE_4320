@@ -1,0 +1,7 @@
+build/
+build-sanitize/
+.venv/
+__pycache__/
+*.pyc
+# Include real raw and processed measurements in the final submission, as required.
+# results/ is intentionally NOT ignored.
