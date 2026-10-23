@@ -1,0 +1,2174 @@
+{
+  "profile": "full",
+  "samples": 7,
+  "target_seconds": 0.1,
+  "seed": 7530,
+  "cpu": 0,
+  "max_mib": 64,
+  "cases": [
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 43696,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 71,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f64",
+      "n": 4194304,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 2796208,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f64",
+      "n": 8192,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 262144,
+      "stride": 1,
+      "shift": 7
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f32",
+      "n": 8388608,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 5456,
+      "stride": 4,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 176,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 672,
+      "stride": 4,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f32",
+      "n": 512,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 4097,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 5456,
+      "stride": 2,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f32",
+      "n": 131072,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f64",
+      "n": 512,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f32",
+      "n": 8192,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 66,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 352,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 336,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f64",
+      "n": 16384,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 699040,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 70,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 68,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 262144,
+      "stride": 1,
+      "shift": 7
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 5456,
+      "stride": 8,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 672,
+      "stride": 8,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 1398080,
+      "stride": 2,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 20,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 262144,
+      "stride": 1,
+      "shift": 3
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 4103,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "negative",
+      "kernel": "strictdot",
+      "dtype": "f32",
+      "n": 4096,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 262144,
+      "stride": 1,
+      "shift": 1
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 69,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "negative",
+      "kernel": "strictdot",
+      "dtype": "f64",
+      "n": 262144,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 336,
+      "stride": 4,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f32",
+      "n": 1048576,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 262144,
+      "stride": 1,
+      "shift": 3
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 20,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f64",
+      "n": 1024,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 72,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 5472,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 4101,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 1344,
+      "stride": 4,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 65,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f64",
+      "n": 16384,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 1376,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f32",
+      "n": 8388608,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f32",
+      "n": 4194304,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 263,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 4104,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 1398080,
+      "stride": 4,
+      "shift": 0
+    },
+    {
+      "study": "bandwidth",
+      "kernel": "bandwidth",
+      "dtype": "f64",
+      "n": 4194304,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f32",
+      "n": 4194304,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 87392,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 5456,
+      "stride": 8,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 1376,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 336,
+      "stride": 8,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 257,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 4099,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f64",
+      "n": 32768,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f64",
+      "n": 8192,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f64",
+      "n": 65536,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 2796160,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 699056,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 21856,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f64",
+      "n": 32768,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 43648,
+      "stride": 2,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f32",
+      "n": 32768,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 256,
+      "stride": 1,
+      "shift": 1
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f32",
+      "n": 2048,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 43696,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 672,
+      "stride": 8,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 10912,
+      "stride": 2,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 174768,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f64",
+      "n": 32768,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 87296,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f64",
+      "n": 1024,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 21856,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 672,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 5472,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 261,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f32",
+      "n": 262144,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f32",
+      "n": 2048,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f64",
+      "n": 4194304,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f64",
+      "n": 262144,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f32",
+      "n": 32768,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 262144,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f64",
+      "n": 2097152,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "negative",
+      "kernel": "strictdot",
+      "dtype": "f32",
+      "n": 262144,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 256,
+      "stride": 1,
+      "shift": 7
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 699040,
+      "stride": 8,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 8192,
+      "stride": 1,
+      "shift": 3
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 260,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 71,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f32",
+      "n": 524288,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 349520,
+      "stride": 8,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 349520,
+      "stride": 8,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 688,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 4104,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f32",
+      "n": 512,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 8192,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 261,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 1398112,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f64",
+      "n": 1048576,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 260,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 70,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 8192,
+      "stride": 1,
+      "shift": 3
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f64",
+      "n": 262144,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 4102,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 688,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 21,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 4096,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f64",
+      "n": 2097152,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 264,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f64",
+      "n": 8192,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f32",
+      "n": 131072,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 8192,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 349520,
+      "stride": 2,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 256,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f32",
+      "n": 65536,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 336,
+      "stride": 2,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f64",
+      "n": 524288,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 67,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 5456,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 10912,
+      "stride": 4,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 256,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f64",
+      "n": 512,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 4103,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f32",
+      "n": 4096,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 259,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 18,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 43648,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 5376,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f64",
+      "n": 2097152,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 349520,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f32",
+      "n": 262144,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 2688,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f32",
+      "n": 8192,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 262,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f32",
+      "n": 4096,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f64",
+      "n": 4096,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 19,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f64",
+      "n": 1024,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 17,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f32",
+      "n": 1024,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 672,
+      "stride": 4,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f64",
+      "n": 4096,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 10928,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 4098,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 256,
+      "stride": 1,
+      "shift": 3
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f32",
+      "n": 2097152,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 256,
+      "stride": 1,
+      "shift": 3
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f32",
+      "n": 524288,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f64",
+      "n": 256,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 10912,
+      "stride": 8,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 16,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 19,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f32",
+      "n": 1024,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f32",
+      "n": 65536,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 67,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f64",
+      "n": 2048,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 24,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 256,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f32",
+      "n": 131072,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 259,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 699040,
+      "stride": 2,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f64",
+      "n": 1048576,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 4100,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 5592320,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f64",
+      "n": 16384,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f64",
+      "n": 65536,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 17,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 69,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f32",
+      "n": 1024,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 16,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f32",
+      "n": 2097152,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f64",
+      "n": 131072,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 699040,
+      "stride": 4,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 68,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 5592416,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f32",
+      "n": 1048576,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 336,
+      "stride": 8,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 672,
+      "stride": 2,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 1398112,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 18,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 4096,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 10928,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f32",
+      "n": 2097152,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 256,
+      "stride": 1,
+      "shift": 1
+    },
+    {
+      "study": "negative",
+      "kernel": "strictdot",
+      "dtype": "f64",
+      "n": 4096,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f64",
+      "n": 1048576,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f32",
+      "n": 16384,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f64",
+      "n": 131072,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 4099,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 174768,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 23,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 2796160,
+      "stride": 2,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f32",
+      "n": 262144,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 349520,
+      "stride": 4,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 256,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f32",
+      "n": 2048,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f64",
+      "n": 4096,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f32",
+      "n": 4096,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 21,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 264,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 699056,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 24,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 699040,
+      "stride": 4,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 4100,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 66,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 2796208,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 352,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 22,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 64,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "bandwidth",
+      "kernel": "bandwidth",
+      "dtype": "f32",
+      "n": 8388608,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f32",
+      "n": 16384,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 64,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 2736,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 8192,
+      "stride": 1,
+      "shift": 1
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 23,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 4098,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 262144,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 22,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f32",
+      "n": 8192,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 87392,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f32",
+      "n": 65536,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 4097,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 21824,
+      "stride": 4,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 21824,
+      "stride": 2,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 699040,
+      "stride": 8,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 10912,
+      "stride": 4,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 4101,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f32",
+      "n": 4194304,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 262144,
+      "stride": 1,
+      "shift": 1
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f64",
+      "n": 2048,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f64",
+      "n": 256,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 257,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 8192,
+      "stride": 1,
+      "shift": 1
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f32",
+      "n": 1048576,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f32",
+      "n": 524288,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 258,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f64",
+      "n": 2048,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f64",
+      "n": 524288,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 263,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f32",
+      "n": 32768,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f64",
+      "n": 131072,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 72,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 8192,
+      "stride": 1,
+      "shift": 7
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 4102,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 65,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f64",
+      "n": 65536,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f32",
+      "n": 512,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 262,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f64",
+      "n": 4194304,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 8192,
+      "stride": 1,
+      "shift": 7
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 349536,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "tail",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 258,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f32",
+      "n": 16384,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 2736,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 10912,
+      "stride": 8,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f64",
+      "n": 262144,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f32",
+      "n": 8388608,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 1344,
+      "stride": 2,
+      "shift": 0
+    },
+    {
+      "study": "stride_fixed_footprint",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 2688,
+      "stride": 2,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "stencil",
+      "dtype": "f64",
+      "n": 524288,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "mul",
+      "dtype": "f64",
+      "n": 349536,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "alignment",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 256,
+      "stride": 1,
+      "shift": 7
+    },
+    {
+      "study": "stride_fixed_n",
+      "kernel": "mul",
+      "dtype": "f32",
+      "n": 10912,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "dot",
+      "dtype": "f64",
+      "n": 512,
+      "stride": 1,
+      "shift": 0
+    },
+    {
+      "study": "locality",
+      "kernel": "saxpy",
+      "dtype": "f64",
+      "n": 256,
+      "stride": 1,
+      "shift": 0
+    }
+  ],
+  "started_utc": "2026-10-13T02:00:05.089437+00:00",
+  "commands": [],
+  "completed_utc": "2026-10-13T02:19:43.702940+00:00",
+  "complete": true
+}

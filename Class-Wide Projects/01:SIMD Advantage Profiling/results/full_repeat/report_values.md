@@ -1,0 +1,38 @@
+# Values to transfer into the report
+
+Use summary.csv, roofline.csv and figures. Complete every [ADD ...] marker in report/report.md.
+
+
+
+Bandwidth calibration and peak assumptions:
+
+```json
+{
+  "peak_model": {
+    "assumed_ghz": 2.0,
+    "vector_bits": 256,
+    "fma_units": 2.0,
+    "note": "Single-core FMA hardware ceiling assumption; kernels disable contraction. Clock is not a measurement."
+  },
+  "bandwidth_calibration": {
+    "f32": {
+      "working_set_bytes": 67108864,
+      "llc_bytes": 16777216,
+      "qualified_dram": true,
+      "modeled_gbps": 14.527786765743718,
+      "useful_gbps": 9.685191177162478
+    },
+    "f64": {
+      "working_set_bytes": 67108864,
+      "llc_bytes": 16777216,
+      "qualified_dram": true,
+      "modeled_gbps": 15.099823740286057,
+      "useful_gbps": 10.066549160190704
+    }
+  },
+  "traffic_model": "64-byte cache lines; temporal stores; write-allocate plus writeback; no measured DRAM bytes",
+  "uncertainty": "Unpaired bootstrap interval of median ratio, 2000 resamples, 95%; block sampling can understate host drift.",
+  "counter_note": "core_cycles_per_element is blank when PMU unavailable; TSC ticks are reference-clock ticks, not core cycles.",
+  "warnings": []
+}
+```
