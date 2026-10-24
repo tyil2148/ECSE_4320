@@ -1,0 +1,17 @@
+{
+  "operator": "FILL IN",
+  "experiment_date": "FILL IN",
+  "expected_cpu": "AMD Ryzen 5 PRO 7530U with Radeon Graphics, advertised base 2.00 GHz",
+  "windows_version": "Windows 11 x64; fill in build",
+  "wsl_version_and_distribution": "FILL IN from wsl.exe --version and wsl.exe -l -v",
+  "physical_ssd_model_firmware_capacity_interface": "FILL IN using Windows metadata; do not infer from CPU model",
+  "vhdx_windows_volume_and_mapping_to_ssd": "FILL IN; identify the volume hosting this distribution's VHDX",
+  "physical_volume_free_space_before_after": "FILL IN; Linux df alone is insufficient for a growing VHDX",
+  "host_power_mode_ac_power_and_cooling": "FILL IN; keep constant throughout",
+  "background_activity": "FILL IN; close unrelated applications, downloads, sync jobs, and other heavy VM work",
+  "ssd_temperature_and_smart_availability": "FILL IN or state unavailable; distinguish SSD from CPU temperature",
+  "prior_drive_state_and_preconditioning": "One full sequential pass over the managed test file; no secure erase or full-drive precondition",
+  "compression_dedup_encryption_and_storage_layers": "FILL IN or unknown; include BitLocker if known",
+  "wsl_memory_limit_swap_and_visible_cpus": "FILL IN; record whether workload causes paging",
+  "interruptions_or_environment_changes": "FILL IN or none"
+}
